@@ -1,0 +1,72 @@
+[
+  {
+    "Id": 1,
+    "patientId": "1",
+    "doctorId": "1",
+    "dateTime": "2024-01-15T09:00:00.000Z",
+    "duration": 30,
+    "type": "Consultation",
+    "status": "scheduled",
+    "notes": "Regular check-up for diabetes management"
+  },
+  {
+    "Id": 2,
+    "patientId": "2",
+    "doctorId": "2",
+    "dateTime": "2024-01-15T10:30:00.000Z",
+    "duration": 45,
+    "type": "Follow-up",
+    "status": "completed",
+    "notes": "Asthma follow-up appointment"
+  },
+  {
+    "Id": 3,
+    "patientId": "3",
+    "doctorId": "1",
+    "dateTime": "2024-01-15T14:00:00.000Z",
+    "duration": 60,
+    "type": "Check-up",
+    "status": "scheduled",
+    "notes": "Post-surgery follow-up"
+  },
+  {
+    "Id": 4,
+    "patientId": "4",
+    "doctorId": "3",
+    "dateTime": "2024-01-16T11:00:00.000Z",
+    "duration": 30,
+    "type": "Consultation",
+    "status": "scheduled",
+    "notes": "Initial consultation for new patient"
+  },
+  {
+    "Id": 5,
+    "patientId": "5",
+    "doctorId": "2",
+    "dateTime": "2024-01-16T15:30:00.000Z",
+    "duration": 30,
+    "type": "Follow-up",
+    "status": "scheduled",
+    "notes": "Arthritis management review"
+  },
+  {
+    "Id": 6,
+    "patientId": "1",
+    "doctorId": "4",
+    "dateTime": "2024-01-17T10:00:00.000Z",
+    "duration": 45,
+    "type": "Lab Test",
+    "status": "scheduled",
+    "notes": "Blood work for diabetes monitoring"
+  },
+  {
+    "Id": 7,
+    "patientId": "2",
+    "doctorId": "1",
+    "dateTime": "2024-01-18T13:00:00.000Z",
+    "duration": 30,
+    "type": "Vaccination",
+    "status": "scheduled",
+    "notes": "Annual flu vaccination"
+  }
+]

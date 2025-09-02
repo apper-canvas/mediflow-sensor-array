@@ -1,0 +1,82 @@
+[
+  {
+    "Id": 1,
+    "name": "John Smith",
+    "dateOfBirth": "1985-03-15",
+    "gender": "male",
+    "phone": "(555) 123-4567",
+    "email": "john.smith@email.com",
+    "address": "123 Main St, Springfield, IL 62701",
+    "bloodType": "A+",
+    "allergies": ["Penicillin", "Shellfish"],
+    "emergencyContact": {
+      "name": "Jane Smith",
+      "phone": "(555) 123-4568"
+    },
+    "medicalHistory": ["Hypertension", "Type 2 Diabetes"]
+  },
+  {
+    "Id": 2,
+    "name": "Sarah Johnson",
+    "dateOfBirth": "1992-07-22",
+    "gender": "female",
+    "phone": "(555) 234-5678",
+    "email": "sarah.johnson@email.com",
+    "address": "456 Oak Ave, Springfield, IL 62702",
+    "bloodType": "O-",
+    "allergies": ["Latex"],
+    "emergencyContact": {
+      "name": "Mike Johnson",
+      "phone": "(555) 234-5679"
+    },
+    "medicalHistory": ["Asthma"]
+  },
+  {
+    "Id": 3,
+    "name": "Michael Davis",
+    "dateOfBirth": "1978-11-08",
+    "gender": "male",
+    "phone": "(555) 345-6789",
+    "email": "michael.davis@email.com",
+    "address": "789 Pine St, Springfield, IL 62703",
+    "bloodType": "B+",
+    "allergies": [],
+    "emergencyContact": {
+      "name": "Lisa Davis",
+      "phone": "(555) 345-6790"
+    },
+    "medicalHistory": ["Previous Heart Surgery"]
+  },
+  {
+    "Id": 4,
+    "name": "Emily Wilson",
+    "dateOfBirth": "1995-05-12",
+    "gender": "female",
+    "phone": "(555) 456-7890",
+    "email": "emily.wilson@email.com",
+    "address": "321 Elm St, Springfield, IL 62704",
+    "bloodType": "AB+",
+    "allergies": ["Peanuts", "Codeine"],
+    "emergencyContact": {
+      "name": "Robert Wilson",
+      "phone": "(555) 456-7891"
+    },
+    "medicalHistory": []
+  },
+  {
+    "Id": 5,
+    "name": "Robert Brown",
+    "dateOfBirth": "1965-09-30",
+    "gender": "male",
+    "phone": "(555) 567-8901",
+    "email": "robert.brown@email.com",
+    "address": "654 Cedar Rd, Springfield, IL 62705",
+    "bloodType": "O+",
+    "allergies": ["Aspirin"],
+    "emergencyContact": {
+      "name": "Mary Brown",
+      "phone": "(555) 567-8902"
+    },
+    "medicalHistory": ["High Cholesterol", "Arthritis"]
+  }
+]

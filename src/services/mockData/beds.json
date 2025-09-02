@@ -1,0 +1,110 @@
+[
+  {
+    "Id": 1,
+    "wardId": "1",
+    "bedNumber": "101",
+    "status": "occupied",
+    "patientId": "1",
+    "admissionDate": "2024-01-10T08:00:00.000Z",
+    "expectedDischarge": "2024-01-17T12:00:00.000Z"
+  },
+  {
+    "Id": 2,
+    "wardId": "1",
+    "bedNumber": "102",
+    "status": "available",
+    "patientId": null,
+    "admissionDate": null,
+    "expectedDischarge": null
+  },
+  {
+    "Id": 3,
+    "wardId": "1",
+    "bedNumber": "103",
+    "status": "cleaning",
+    "patientId": null,
+    "admissionDate": null,
+    "expectedDischarge": null
+  },
+  {
+    "Id": 4,
+    "wardId": "1",
+    "bedNumber": "104",
+    "status": "occupied",
+    "patientId": "3",
+    "admissionDate": "2024-01-12T14:30:00.000Z",
+    "expectedDischarge": "2024-01-19T10:00:00.000Z"
+  },
+  {
+    "Id": 5,
+    "wardId": "2",
+    "bedNumber": "201",
+    "status": "available",
+    "patientId": null,
+    "admissionDate": null,
+    "expectedDischarge": null
+  },
+  {
+    "Id": 6,
+    "wardId": "2",
+    "bedNumber": "202",
+    "status": "available",
+    "patientId": null,
+    "admissionDate": null,
+    "expectedDischarge": null
+  },
+  {
+    "Id": 7,
+    "wardId": "2",
+    "bedNumber": "203",
+    "status": "maintenance",
+    "patientId": null,
+    "admissionDate": null,
+    "expectedDischarge": null
+  },
+  {
+    "Id": 8,
+    "wardId": "2",
+    "bedNumber": "204",
+    "status": "occupied",
+    "patientId": "2",
+    "admissionDate": "2024-01-14T16:00:00.000Z",
+    "expectedDischarge": "2024-01-20T09:00:00.000Z"
+  },
+  {
+    "Id": 9,
+    "wardId": "3",
+    "bedNumber": "301",
+    "status": "available",
+    "patientId": null,
+    "admissionDate": null,
+    "expectedDischarge": null
+  },
+  {
+    "Id": 10,
+    "wardId": "3",
+    "bedNumber": "302",
+    "status": "available",
+    "patientId": null,
+    "admissionDate": null,
+    "expectedDischarge": null
+  },
+  {
+    "Id": 11,
+    "wardId": "3",
+    "bedNumber": "303",
+    "status": "cleaning",
+    "patientId": null,
+    "admissionDate": null,
+    "expectedDischarge": null
+  },
+  {
+    "Id": 12,
+    "wardId": "3",
+    "bedNumber": "304",
+    "status": "available",
+    "patientId": null,
+    "admissionDate": null,
+    "expectedDischarge": null
+  }
+]

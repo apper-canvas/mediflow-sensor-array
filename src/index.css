@@ -1,0 +1,80 @@
+@import 'react-toastify/dist/ReactToastify.css';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    @apply antialiased;
+  }
+  
+  body {
+    @apply bg-slate-50 text-slate-900;
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  }
+  
+  input:focus,
+  select:focus,
+  textarea:focus {
+    @apply outline-none ring-2 ring-primary-500;
+  }
+}
+
+@layer components {
+  .glass-card {
+    @apply bg-white/90 backdrop-blur-sm border border-white/20 shadow-xl;
+  }
+  
+  .medical-gradient {
+    background: linear-gradient(135deg, #2563eb 0%, #0ea5e9 100%);
+  }
+  
+  .status-available {
+    @apply bg-emerald-100 text-emerald-800 border-emerald-200;
+  }
+  
+  .status-occupied {
+    @apply bg-rose-100 text-rose-800 border-rose-200;
+  }
+  
+  .status-cleaning {
+    @apply bg-amber-100 text-amber-800 border-amber-200;
+  }
+  
+  .status-maintenance {
+    @apply bg-slate-100 text-slate-800 border-slate-200;
+  }
+}
+
+/* Toast Overrides */
+.Toastify__toast-container {
+  @apply z-[9999];
+}
+
+.Toastify__toast {
+  @apply rounded-lg shadow-lg text-sm;
+}
+
+.Toastify__toast--success {
+  @apply bg-emerald-50 text-emerald-800 border border-emerald-200;
+}
+
+.Toastify__toast--error {
+  @apply bg-rose-50 text-rose-800 border border-rose-200;
+}
+
+.Toastify__toast--warning {
+  @apply bg-amber-50 text-amber-800 border border-amber-200;
+}
+
+.Toastify__toast--info {
+  @apply bg-blue-50 text-blue-800 border border-blue-200;
+}
+
+.Toastify__progress-bar {
+  @apply bg-current opacity-30;
+}
+
+.Toastify__close-button {
+  @apply text-current opacity-60 hover:opacity-100;
+}

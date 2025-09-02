@@ -1,0 +1,23 @@
+[
+  {
+    "Id": 1,
+    "name": "General Medicine",
+    "type": "General",
+    "totalBeds": 4,
+    "floor": 1
+  },
+  {
+    "Id": 2,
+    "name": "Cardiology",
+    "type": "Specialty",
+    "totalBeds": 4,
+    "floor": 2
+  },
+  {
+    "Id": 3,
+    "name": "Surgery Recovery",
+    "type": "Post-Op",
+    "totalBeds": 4,
+    "floor": 3
+  }
+]
