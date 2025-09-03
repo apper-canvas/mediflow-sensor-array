@@ -1,12 +1,17 @@
-import { useState } from "react"
-import { NavLink, useLocation } from "react-router-dom"
-import ApperIcon from "@/components/ApperIcon"
-import { cn } from "@/utils/cn"
-
+import { useState, useContext } from 'react'
+import { NavLink, useLocation } from 'react-router-dom'
+import { useSelector } from 'react-redux'
+import ApperIcon from '@/components/ApperIcon'
+import Button from '@/components/atoms/Button'
+import { cn } from '@/utils/cn'
+import { AuthContext } from '../../App'
 const Sidebar = () => {
   const [isMobileOpen, setIsMobileOpen] = useState(false)
   const location = useLocation()
 
+const [showLogout, setShowLogout] = useState(false)
+  const { logout } = useContext(AuthContext)
+  
   const navigation = [
     { name: "Dashboard", href: "/", icon: "LayoutDashboard" },
     { name: "Patients", href: "/patients", icon: "Users" },
